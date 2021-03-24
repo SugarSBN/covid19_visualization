@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COVID19 Visualization</title>
+  <style type="text/css">
+    html,body{margin:0px;height:100%;width:100%}
+    .container{width:100%;height:100%}
+  </style>
+  
+  <link href="maptalks.css" rel="stylesheet" type="text/css" />
+  <script src="maptalks.min.js" type="text/javascript"></script>
+  <script src="axios.min.js" type="text/javascript"></script>
+  <script src="jquery.js"></script>
+  <script src="maptalks.animatemarker.js">  </script>
+  <script src="jquery.tabletojson.js">  </script>
+  <script src="highcharts.js">  </script>
+  <script src="JS/data/all_month.js"></script>
+  <script src="JS/data/country_boundaries.js"></script>
+  <script src="JS/data/countryCenter.js"></script>
+  <script src="JS/data/countrySize.js"></script>
+  <script src="JS/data/covid_confirmed.js"></script>
+  <script src="JS/data/covid_death.js"></script>
+  <script src="JS/data/covid_recovered.js"></script>
+  <body>
+    <div id="map" class="container"></div>
+    <script src="JS/drawChart.js"></script>
+    <script src="JS/controller.js">    </script>
+    <script src="JS/drawGraph.js">    </script>
+  	<script src="JS/anima.js"></script>
+  	<script src="JS/boundaries.js"></script>
+  </body>
+</html>
